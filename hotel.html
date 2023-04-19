@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="crown.png">
     <a href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" href="crown.png" />
+      
      <link rel="stylesheet" href="style.css">
 
     <title>grand hotel</title>
@@ -85,9 +86,8 @@
           <p>2023</p>
         </div>
       </div>
-    </div>
 
-    <div class="navigation">
+    <nav class="navigation">
       <div class="navigation-header">
         <h1 class="navigation-heading"> Grand hotel</h1>
         <form action="" class="navigation-search">
@@ -125,6 +125,7 @@
       <div class="copyright">
         <p>&copy; 2018. grand hotel. all rights reserved </p>
       </div>
+    </nav>
     </div>
 
     <header class="header">
@@ -167,7 +168,7 @@
     </section>
 
 
-    <section class="rooms">
+    <section class="rooms" id="rooms">
       <div class="commonheader">
          <div class="commonheading">Rooms In Grand hotel</div>
          <div class="underline">
@@ -219,19 +220,24 @@
         </div>
        
       </div>
+      <div class="roombuttonwrapper">
+        <button class="roombutton">check all rooms</button>
+      </div>
     </section>
+ <!-- end of rooms  -->
 
     
-    <section class="customers">
+<!-- customers -->
+    <section class="customers" id="customers">
       <div class="commonheader">
         <h1 class="commonheading">Our customers
         </h1>
         <div class="underline">
-          <div class="smallunder-line"></div>
-          <div class="bigunder-line"></div>
+          <div class="small-underline"></div>
+          <div class="big-underline"></div>
         </div>
       </div>
-      <p class="customersparagraph">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore laudantium cum aliquid voluptatibus quis quam nam vitae quaerat aut? Doloribus!"</p>
+      <p class="customersparagraph">"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio neque hic illo sunt animi, aut autem sint illum error laborum."</p>
 
       <div class="customerscardwrapper">
         <div class="customercard">
@@ -239,9 +245,10 @@
             <img src="customer-1.jpeg" class="customerimage">
           </div>
           <div class="customerinfo">
-            <h3 class="customerfullname">hele jon</h3>
+            <h3 class="customerfullname">Helen Doe</h3>
               <p class="customerparagraph1">happy customer</p>
-              <p class="customerparagraph2">"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore exercitationem laboriosam at vel iste magni dolores doloribus magnam tempore facere ut eveniet quas suscipit quia debitis accusamus, hic a reprehenderit."</p>
+              <p class="customerparagraph2">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nemo saepe sint voluptatum ea, inventore porro velit consequatur enim! Sit corporis quas repellendus at nesciunt praesentium assumenda? Quibusdam, error totam."</p>
+          </div>
           </div>
 
           <div class="customercard">
@@ -249,17 +256,127 @@
               <img src="customer-2.jpeg" class="customerimage">
             </div>
             <div class="customerinfo">
-              <h3 class="customerfullname">monica smith</h3>
+              <h3 class="customerfullname">Monica Smith</h3>
                 <p class="customerparagraph1">happy customer</p>
                 <p class="customerparagraph2">"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore exercitationem laboriosam at vel iste magni dolores doloribus magnam tempore facere ut eveniet quas suscipit quia debitis accusamus, hic a reprehenderit."</p>
             </div>
         </div>
       </div>
-
-      <div class="roombuttonwrapper">
-        <button class="roombutton">check all rooms</button>
-      </div>
     </section>
+<!-- end of customers -->
+
+
+<!-- footers -->
+<footer class="footer">
+  <div class="mainpart">
+    <div class="footerlistwrapper">
+      <h3 class="footerheading">Grand Hotel</h3>
+      <ul class="footerlist">
+        <li class="footerlistitem">
+          <a href="#" class="footerlistlink">
+            support@grandhotel.com
+          </a>
+        </li>
+
+        <li class="footerlistitem">
+          <a href="#" class="footerlistlink">
+            New York, Main Street 123
+          </a>
+        </li>
+
+        <li class="footerlistitem">
+          <a href="#" class="footerlistlink">
+            Tel: +123 456 789
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footerlistwrapper">
+      <h3 class="footerheading">Explore</h3>
+      <ul class="footerlist">
+        <li class="footerlistitem">
+          <a href="#" class="footerlistlink">
+           Home
+          </a>
+        </li>
+
+        <li class="footerlistitem">
+          <a href="#" class="footerlistlink">
+            About Us
+          </a>
+        </li>
+
+        <li class="footerlistitem">
+          <a href="#rooms" class="footerlistlink">
+            Rooms
+          </a>
+        </li>
+
+        <li class="footerlistitem">
+          <a href="#" class="footerlistlink">
+           Events
+          </a>
+        </li>
+
+        <li class="footerlistitem">
+          <a href="#customers" class="footerlistlink">
+            Customers
+          </a>
+        </li>
+
+        <li class="footerlistitem">
+          <a href="#" class="footerlistlink">
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="contact">
+      <h3 class="footerheading">Contact</h3>
+      <p>Sign up for News</p>
+      <form action="#" class="footerform">
+        <input type="text" class="footerinput" placeholder="Text your email..">
+        <button class="footerbtn">Sign Up</button>
+      </form>
+    </div>
+
+    <div class="gallery">
+      <h3 class="footerheading">gallery</h3>
+      <div class="galleryimages">
+        <div class="imagewrapper">
+          <img src="gallery-img-1.jpeg" class="footerimage">
+        </div>
+        <div class="imagewrapper">
+          <img src="gallery-img-2.jpeg" class="footerimage">
+        </div>
+        <div class="imagewrapper">
+          <img src="gallery-img-3.jpeg" class="footerimage">
+        </div>
+        <div class="imagewrapper">
+          <img src="gallery-img-4.jpeg" class="footerimage">
+        </div>
+        <div class="imagewrapper">
+          <img src="gallery-img-5.jpeg" class="footerimage">
+        </div>
+        <div class="imagewrapper">
+          <img src="gallery-img-6.jpeg" class="footerimage">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="creatorpart">
+    <div class="copyrighttext">
+      <p>copyright &copy; 2023. Grand Hotel. All Rights Reserved</p>
+    </div>
+
+    <div class="textright">
+      <p>Made with❤️ <span>Code and Create</span> </p>
+    </div>
+  </div>
+</footer>
 
   </body>
 </html>
